@@ -12,7 +12,7 @@ cask "puffdisk" do
 
   app "Puffdisk.app"
 
-  zap trace: [
+  zap trash: [
     "~/Library/Application Support/Puffdisk",
   ]
 end
